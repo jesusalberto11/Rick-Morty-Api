@@ -32,6 +32,12 @@
 <!-- About the Project -->
 ## :star2: About the Project
 
+This is project is a client side web page, created using:
+-Vue JS (v3.0)
+-Vue Router (v4.0)
+-Vuestic UI
+-The Rick and Morty API
+
 <!-- Screenshots -->
 ### :camera: Screenshots
 
@@ -46,12 +52,10 @@
 <!-- TechStack -->
 ## :space_invader: Tech Stack
 
-<details>  
 <li><a href="https://es.vuejs.org/">Vue JS</a></li>
 <li><a href="https://router.vuejs.org/">Vue Router</a></li>
 <li><a href="https://vuestic.dev/">Vuestic UI</a></li>
 <li><a href="https://rickandmortyapi.com/">The Rick and Morty API</a></li>
-</details>
 
 <!-- Features -->
 ### :dart: Features
