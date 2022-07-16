@@ -8,8 +8,8 @@
   <p>
     An API created using: Vue JS (v3.0), Vue Router(v4.0), Vuestic UI, 
   </p>
-  
-<div/>
+
+</div>
 
 <!-- Table of Contents -->
 # :notebook_with_decorative_cover: Table of Contents
