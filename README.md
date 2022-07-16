@@ -66,8 +66,8 @@ This is project is a client side web page, created using:
 ### :bangbang: Prerequisites
 
 - To run this project you need:
-  -NodeJS
-  -Vue JS
+  * NodeJS
+  * Vue JS (Min. Ver. 3.0)
 
 Once you have that, you're ready to go
 
