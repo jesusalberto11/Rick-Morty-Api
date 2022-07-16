@@ -1,5 +1,3 @@
-# rick-morty-api
-
 <div align="center">
   <img src="src/assets/rick_morty_logo.png" alt="logo" width="300" height="auto" />
   <h1>Rick and Morty API</h1>
