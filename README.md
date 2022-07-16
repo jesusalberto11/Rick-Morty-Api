@@ -132,4 +132,4 @@ Jesus Alberto - [@LinkedIn](https://www.linkedin.com/in/jesus-alberto-morales-ri
 <!-- Acknowledgments -->
 ## :gem: Acknowledgements
 
-this project helped me understand the basics of Vue JS, I learned how to create and reuse components, make calls to public APIs and manage information between components and finally, the use of the Vue Router.
+This project helped me understand the basics of Vue JS, I learned how to create and reuse components, make calls to public APIs and manage information between components and finally, the use of the Vue Router.
