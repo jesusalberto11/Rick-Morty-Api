@@ -1,14 +1,8 @@
 # rick-morty-api
 
 <div align="center">
-
   <img src="src/assets/rick_morty_logo.png" alt="logo" width="300" height="auto" />
   <h1>Rick and Morty API</h1>
-  
-  <p>
-    An API created using: Vue JS (v3.0), Vue Router(v4.0), Vuestic UI, 
-  </p>
-
 </div>
 
 <!-- Table of Contents -->
@@ -33,10 +27,11 @@
 ## :star2: About the Project
 
 This is project is a client side web page, created using:
--Vue JS (v3.0)
--Vue Router (v4.0)
--Vuestic UI
--The Rick and Morty API
+
+<li><a href="https://es.vuejs.org/">Vue JS</a></li>
+<li><a href="https://router.vuejs.org/">Vue Router</a></li>
+<li><a href="https://vuestic.dev/">Vuestic UI</a></li>
+<li><a href="https://rickandmortyapi.com/">The Rick and Morty API</a></li>
 
 <!-- Screenshots -->
 ### :camera: Screenshots
