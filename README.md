@@ -57,7 +57,8 @@ This is project is a client side web page, created using:
 
 - Vue Router
 - Skeleton loader
-- Api Calls
+- API Calls
+- Responsive Desing
 
 <!-- Getting Started -->
 ## 	:toolbox: Getting Started
