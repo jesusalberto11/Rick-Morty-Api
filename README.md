@@ -1,13 +1,5 @@
 # rick-morty-api
 
-<!--
-Hey, thanks for using the awesome-readme-template template.  
-If you have any enhancements, then fork this project and create a pull request 
-or just open an issue with the label "enhancement".
-
-Don't forget to give this project a star for additional support ;)
-Maybe you can mention me or this repo in the acknowledgements too
--->
 <div align="center">
 
   <img src="src/assets/rick_morty_logo.png" alt="logo" width="300" height="auto" />
@@ -17,41 +9,7 @@ Maybe you can mention me or this repo in the acknowledgements too
     An API created using: Vue JS (v3.0), Vue Router(v4.0), Vuestic UI, 
   </p>
   
-  
-<!-- Badges -->
-<p>
-  <a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/Louis3797/awesome-readme-template" alt="contributors" />
-  </a>
-  <a href="">
-    <img src="https://img.shields.io/github/last-commit/Louis3797/awesome-readme-template" alt="last update" />
-  </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/network/members">
-    <img src="https://img.shields.io/github/forks/Louis3797/awesome-readme-template" alt="forks" />
-  </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/stargazers">
-    <img src="https://img.shields.io/github/stars/Louis3797/awesome-readme-template" alt="stars" />
-  </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/issues/">
-    <img src="https://img.shields.io/github/issues/Louis3797/awesome-readme-template" alt="open issues" />
-  </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/Louis3797/awesome-readme-template.svg" alt="license" />
-  </a>
-</p>
-   
-<h4>
-    <a href="https://github.com/Louis3797/awesome-readme-template/">View Demo</a>
-  <span> · </span>
-    <a href="https://github.com/Louis3797/awesome-readme-template">Documentation</a>
-  <span> · </span>
-    <a href="https://github.com/Louis3797/awesome-readme-template/issues/">Report Bug</a>
-  <span> · </span>
-    <a href="https://github.com/Louis3797/awesome-readme-template/issues/">Request Feature</a>
-  </h4>
-</div>
-
-<br />
+<div/>
 
 <!-- Table of Contents -->
 # :notebook_with_decorative_cover: Table of Contents
@@ -63,10 +21,9 @@ Maybe you can mention me or this repo in the acknowledgements too
 - [Getting Started](#toolbox-getting-started)
   * [Prerequisites](#bangbang-prerequisites)
   * [Installation](#gear-installation)
-  * [Installation andRun Locally](#running-installation-and-run-locally)
+  * [Installation and Run Locally](#running-installation-and-run-locally)
   * [Deployment](#triangular_flag_on_post-deployment)
 - [Contributing](#wave-contributing)
-- [FAQ](#grey_question-faq)
 - [License](#warning-license)
 - [Contact](#handshake-contact)
 - [Acknowledgements](#gem-acknowledgements)
@@ -89,20 +46,19 @@ Maybe you can mention me or this repo in the acknowledgements too
 <!-- TechStack -->
 ## :space_invader: Tech Stack
 
-<details>
-  <summary>Client</summary>
-    <li><a href="https://es.vuejs.org/">Vue JS</a></li>
-    <li><a href="https://router.vuejs.org/">Vue Router</a></li>
-    <li><a href="https://vuestic.dev/">Vuestic UI</a></li>
-    <li><a href="https://rickandmortyapi.com/">The Rick and Morty API</a></li>
+<details>  
+<li><a href="https://es.vuejs.org/">Vue JS</a></li>
+<li><a href="https://router.vuejs.org/">Vue Router</a></li>
+<li><a href="https://vuestic.dev/">Vuestic UI</a></li>
+<li><a href="https://rickandmortyapi.com/">The Rick and Morty API</a></li>
 </details>
 
 <!-- Features -->
 ### :dart: Features
 
-- Feature 1
-- Feature 2
-- Feature 3
+- Vue Router
+- Skeleton loader
+- Api Calls
 
 <!-- Getting Started -->
 ## 	:toolbox: Getting Started
@@ -164,18 +120,6 @@ Contributions are always welcome!
 
 Please send a message if you're interested in contributing to the proyect.
 
-<!-- FAQ -->
-## :grey_question: FAQ
-
-- Question 1
-
-  + Answer 1
-
-- Question 2
-
-  + Answer 2
-
-
 <!-- License -->
 ## :warning: License
 
@@ -190,4 +134,4 @@ Jesus Alberto - [@LinkedIn](https://www.linkedin.com/in/jesus-alberto-morales-ri
 <!-- Acknowledgments -->
 ## :gem: Acknowledgements
 
-this project helped me understand the basics to use the javascript framework, called vuejs, I learned how to create and reuse components, make calls to public apis and manage information between components and the use of the Vue Router.
+this project helped me understand the basics of Vue JS, I learned how to create and reuse components, make calls to public APIs and manage information between components and finally, the use of the Vue Router.
