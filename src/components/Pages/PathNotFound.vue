@@ -13,7 +13,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .page-not-found-body {
   height: 70vh;
 

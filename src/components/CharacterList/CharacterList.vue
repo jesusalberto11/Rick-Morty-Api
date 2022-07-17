@@ -28,7 +28,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .character-list {
   display: flex;
   flex-direction: row;

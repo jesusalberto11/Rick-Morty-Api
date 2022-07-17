@@ -29,7 +29,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .skeleton-card-body {
   background-color: #fff;
   height: 150px;

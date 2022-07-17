@@ -23,7 +23,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .skeleton-detailed-card-body {
   display: flex;
   flex-direction: row;

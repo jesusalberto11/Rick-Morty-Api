@@ -37,7 +37,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .character-detailed-card-body {
   display: flex;
   flex-direction: row;

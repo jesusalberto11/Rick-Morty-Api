@@ -23,7 +23,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .character-info {
   display: flex;
   flex-direction: column;

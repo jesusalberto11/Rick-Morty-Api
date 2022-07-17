@@ -21,7 +21,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .character-circle-indicator {
   width: 10px;
   height: 10px;
