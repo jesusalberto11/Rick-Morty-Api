@@ -1,9 +1,10 @@
 <template>
   <div class="character-list">
     <div v-for="character in data" v-bind:key="character.id">
-      <div @click="getCharacterName(character)" class="character-card">
-        <CharacterCard :characterInfo="character" />
-      </div>
+      <CharacterCard
+        @click="getCharacterName(character)"
+        :characterInfo="character"
+      />
     </div>
   </div>
 </template>
