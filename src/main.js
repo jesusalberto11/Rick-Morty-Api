@@ -3,8 +3,12 @@ import App from "./App.vue";
 import { createVuestic } from "vuestic-ui";
 import "vuestic-ui/css";
 import { router } from "./router";
+import { createPinia } from "pinia";
 
+const pinia = createPinia();
 const app = createApp(App);
+
 app.use(router);
+app.use(pinia);
 app.use(createVuestic());
 app.mount("#app");
