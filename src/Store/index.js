@@ -3,23 +3,29 @@ import { defineStore } from "pinia";
 export const useStore = defineStore("characters", {
   state: () => {
     return {
+      character: {},
       characters: [],
-      charactersCount: 0,
+      charactersPages: 0,
       isLoading: true,
       currentPage: 1,
+      firstEpisodeData: {},
     };
   },
   getters: {
     /* Getters */
   },
   actions: {
+    setCharacter(character) {
+      if (character === null || character === undefined) return;
+      this.character = character;
+    },
     setCharacters(characters) {
       if (characters === null || characters === undefined) return;
       this.characters = characters;
     },
-    setCharactersCount(count) {
+    setCharactersPages(count) {
       if (count === null || count === undefined) return;
-      this.charactersCount = count;
+      this.charactersPages = count;
     },
     setIsLoading(value) {
       if (value === null || value === undefined) return;
@@ -28,6 +34,10 @@ export const useStore = defineStore("characters", {
     setCurrentPage(value) {
       if (value === null || value === undefined) return;
       this.currentPage = value;
+    },
+    setFirstEpisodeData(data) {
+      if (data === null || data === undefined) return;
+      this.firstEpisodeData = data;
     },
   },
 });
