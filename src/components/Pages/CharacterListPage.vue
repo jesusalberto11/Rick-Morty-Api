@@ -7,8 +7,8 @@
       <CharacterList @on-click-card="goToCharacter" :data="characters" />
     </div>
     <CharacterListPagination
-      @update-list="updateData"
-      :characterPages="charactersCount"
+      @update-list="fetchNewCharactersPage"
+      :characterPages="charactersPages"
     />
   </div>
 </template>
@@ -18,8 +18,13 @@ import { onMounted } from "vue";
 import { useRouter } from "vue-router";
 import { useCharacters } from "../../composable/useCharacters";
 
-const { characters, isLoading, charactersCount, getAllCharacters, updateData } =
-  useCharacters();
+const {
+  characters,
+  isLoading,
+  charactersPages,
+  getAllCharacters,
+  fetchNewCharactersPage,
+} = useCharacters();
 
 onMounted(() => {
   getAllCharacters();
