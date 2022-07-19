@@ -21,7 +21,7 @@ export default {
   },
   computed: {
     statusWithCapitalizedFirstLetter() {
-      return this.status.charAt(0).toUpperCase() + this.status.slice(1);
+      return this.status?.charAt(0).toUpperCase() + this.status?.slice(1);
     },
   },
 };
