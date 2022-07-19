@@ -30,6 +30,7 @@ This is project is a client side web page, created using:
 <li><a href="https://router.vuejs.org/">Vue Router</a></li>
 <li><a href="https://vuestic.dev/">Vuestic UI</a></li>
 <li><a href="https://rickandmortyapi.com/">The Rick and Morty API</a></li>
+<li><a href="https://pinia.vuejs.org/">Pinia</a></li>
 
 <!-- Screenshots -->
 ### :camera: Screenshots
@@ -49,6 +50,7 @@ This is project is a client side web page, created using:
 <li><a href="https://router.vuejs.org/">Vue Router</a></li>
 <li><a href="https://vuestic.dev/">Vuestic UI</a></li>
 <li><a href="https://rickandmortyapi.com/">The Rick and Morty API</a></li>
+<li><a href="https://pinia.vuejs.org/">Pinia</a></li>
 
 <!-- Features -->
 ### :dart: Features
@@ -57,6 +59,8 @@ This is project is a client side web page, created using:
 - Skeleton loader
 - API Calls
 - Responsive Desing
+- Pinia global store
+- Custom hook
 
 <!-- Getting Started -->
 ## 	:toolbox: Getting Started
@@ -123,7 +127,6 @@ Please send a message if you're interested in contributing to the proyect.
 
 Distributed under the MIT License. See LICENSE for more information.
 
-
 <!-- Contact -->
 ## :handshake: Contact
 
@@ -132,4 +135,4 @@ Jesus Alberto - [@LinkedIn](https://www.linkedin.com/in/jesus-alberto-morales-ri
 <!-- Acknowledgments -->
 ## :gem: Acknowledgements
 
-This project helped me understand the basics of Vue JS, I learned how to create and reuse components, make calls to public APIs and manage information between components and finally, the use of the Vue Router.
+This project helped me understand the basics of Vue JS, I learned how to create and reuse components, make calls to public APIs, manage information between components, the use of the Vue Router, and finally how to use Pinia and a custom hook to display information to the diferent parts of the application.
