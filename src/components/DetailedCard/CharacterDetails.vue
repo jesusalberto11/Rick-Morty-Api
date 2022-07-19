@@ -1,14 +1,14 @@
 <template>
   <div class="character-details">
-    <CharacterCardStatus :status="characterData.status" />
-    <p>Species: {{ characterData.species }}</p>
-    <p>Gender: {{ characterData.gender }}</p>
-    <p>Origin: {{ characterData.origin.name }}</p>
-    <p>Last know Location: {{ characterData.location.name }}</p>
+    <CharacterCardStatus :status="characterData?.status" />
+    <p>Species: {{ characterData?.species }}</p>
+    <p>Gender: {{ characterData?.gender }}</p>
+    <p>Origin: {{ characterData?.origin.name }}</p>
+    <p>Last know Location: {{ characterData?.location.name }}</p>
 
-    <p>First seen in: {{ firstSeenEpisodeData.name }}</p>
-    <p>Aired on: {{ firstSeenEpisodeData.air_date }}</p>
-    <p>Episode Code: {{ firstSeenEpisodeData.episode }}</p>
+    <p>First seen in: {{ firstSeenEpisodeData?.name }}</p>
+    <p>Aired on: {{ firstSeenEpisodeData?.air_date }}</p>
+    <p>Episode Code: {{ firstSeenEpisodeData?.episode }}</p>
   </div>
 </template>
 

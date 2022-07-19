@@ -1,15 +1,15 @@
 <template>
   <div class="character-detailed-card-body">
     <CharacterCardImage
-      :name="characterData.name"
-      :image="characterData.image"
+      :name="characterData?.name"
+      :image="characterData?.image"
       :imageWidth="300"
       :imageHeight="300"
       :classType="'box'"
       :paddingLeft="0"
     />
     <div class="character-details-body">
-      <CharacterTitle :name="characterData.name" />
+      <CharacterTitle :name="characterData?.name" />
       <CharacterDetails
         :characterData="characterData"
         :firstSeenEpisodeData="firstSeenEpisodeData"
