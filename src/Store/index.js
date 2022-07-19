@@ -3,12 +3,12 @@ import { defineStore } from "pinia";
 export const useStore = defineStore("characters", {
   state: () => {
     return {
-      character: {},
+      character: null,
       characters: [],
       charactersPages: 0,
       isLoading: true,
       currentPage: 1,
-      firstEpisodeData: {},
+      firstEpisodeData: null,
     };
   },
   getters: {
@@ -17,7 +17,7 @@ export const useStore = defineStore("characters", {
   actions: {
     setCharacter(character) {
       if (character === null || character === undefined) return;
-      this.character = character;
+      this.character = { ...character };
     },
     setCharacters(characters) {
       if (characters === null || characters === undefined) return;
