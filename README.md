@@ -1,6 +1,7 @@
 <div align="center">
   <img src="src/assets/rick_morty_logo.png" alt="logo" width="300" height="auto" />
   <h1>Rick and Morty API</h1>
+  <a href="https://rick-morty-api-f92c9.web.app/"> Click here to see the project live</a>
 </div>
 
 <!-- Table of Contents -->
